@@ -12,7 +12,7 @@
     "start": "node src/server.js",
     "predeploy": "npm audit && npm run migrate:production",
     "deploy": "git push heroku master",
-    "build": "react-scripts build"
+
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,8 @@
     "knex": "^0.20.1",
     "morgan": "^1.9.1",
     "pg": "^7.12.1",
-    "xss": "^1.0.6"
+    "xss": "^1.0.6",
+    "react-scripts": "2.1.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
