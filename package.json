@@ -11,9 +11,9 @@
     "migrate:production": "env SSL=true DATABASE_URL=$(heroku config:get DATABASE_URL) npm run migrate",
     "start": "node src/server.js",
     "predeploy": "npm audit && npm run migrate:production",
-    "deploy": "git push heroku master"
-    "build": "[my-framework] build --output public",
-  }
+    "deploy": "git push heroku master",
+    "build": "[my-framework] build --output public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
