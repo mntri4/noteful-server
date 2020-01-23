@@ -12,7 +12,7 @@
     "start": "node src/server.js",
     "predeploy": "npm audit && npm run migrate:production",
     "deploy": "git push heroku master",
-    "build": "[my-framework] build --output public"
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
